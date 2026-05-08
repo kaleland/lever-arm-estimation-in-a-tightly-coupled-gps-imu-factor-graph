@@ -1,12 +1,7 @@
-# Ignore everything in the data/ directory
+# Ignore everything in the results/ directory
 results/
 # Ignore all Hydra outputs and experiment logs
-experiment/logs/
-mlruns/
-multirun/
-outputs/
 *.log
-pim_for_jeremy/
 tmp/
 
 #  Ignore all __pycache__ directories
@@ -23,7 +18,6 @@ env/
 venv/
 
 # Ignore picture files and numpy binary files
-*.npz
 *.png
 *.csv
 *.dat
