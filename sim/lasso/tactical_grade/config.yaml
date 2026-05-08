@@ -1,0 +1,5 @@
+sensor:
+  imu: tactical_grade
+  clock: crystal_ovenized
+
+stationary_period_s: 60.0  # seconds, the amount of time when the platform is stationary at start and the biases can be initialized
